@@ -1,0 +1,57 @@
+{
+  "pluginId": "lethal-lawnmower",
+  "repoVersion": "1",
+  "generatedAt": "2026-11-02T02:04:36.8621812Z",
+  "games": [
+    {
+      "gameId": "bejeweled-3",
+      "displayName": "Bejeweled 3",
+      "modName": "Bejeweled 3 Access",
+      "description": "Screen-reader accessibility for the Steam version of Bejeweled 3: speaks menus, dialogs and the board through Prism and adds keyboard navigation. Classic and Zen are fully supported; the other modes have preliminary support that has not been through live testing by players.",
+      "steamAppId": "78000",
+      "linuxSteamAppId": null,
+      "exeName": "Bejeweled3.exe",
+      "linuxExeName": null,
+      "probeRules": [],
+      "linuxProbeRules": [],
+      "registryProbe": null,
+      "asciiPathShim": null,
+      "dependencies": [],
+      "tags": [],
+      "languages": [
+        "en"
+      ],
+      "defaultPreInstall": null,
+      "defaultPostInstall": null,
+      "defaultPostUninstall": null
+    }
+  ],
+  "releasesByGameId": {
+    "bejeweled-3": [
+      {
+        "gameId": "bejeweled-3",
+        "pluginId": "lethal-lawnmower",
+        "version": "0.2.1",
+        "channel": "stable",
+        "targetPlatform": null,
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/Lethal-Lawnmower/Bejeweled3-Access/releases/download/v0.2.1/bejeweled-3-0.2.1.zip",
+        "sha256": "bed0ec62e7ed6d298d08cdc2b21e8389d2f1345da199159108483ec8972dc15e",
+        "changelogUrl": null,
+        "notes": "N key: moves made, and on move-limit quests the limit and moves left. Modes other than Classic and Zen have preliminary support that has not been through live testing by players.",
+        "compatibility": null,
+        "patreon": null
+      }
+    ]
+  },
+  "author": {
+    "displayName": "Lethal Lawnmower",
+    "bio": "Screen-reader accessibility mods. Discord: lethal_lawnmower.",
+    "websiteUrl": null,
+    "discordUrl": null,
+    "patreonUrl": null,
+    "gitHubUrl": "https://github.com/Lethal-Lawnmower",
+    "donationUrl": null
+  },
+  "dependencyPresets": []
+}
